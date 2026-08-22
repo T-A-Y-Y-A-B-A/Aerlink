@@ -1,0 +1,7 @@
+{
+  "total_cases": 12,
+  "resolved": 3,
+  "partially_resolved": 5,
+  "escalated": 4,
+  "cost_notes": "Deterministic templates used for replies. First run costs ~$0.02 total for 12 cases. Cache prevents repeat costs."
+}

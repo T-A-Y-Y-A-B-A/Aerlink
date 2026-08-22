@@ -1,0 +1,82 @@
+{
+  "case_id": "case-04",
+  "status": "escalated",
+  "intent": {
+    "booking_references": [
+      "BA-99201"
+    ],
+    "flight_numbers": [
+      "BA-99201"
+    ],
+    "passenger_requests": [
+      {
+        "passenger_name": "Peter Lindqvist",
+        "requested_actions": [
+          "compensation",
+          "other"
+        ]
+      }
+    ],
+    "requested_amount": null,
+    "destination": "Manchester",
+    "preferred_date": null,
+    "deadline": "2026-08-19",
+    "language": "English",
+    "is_prompt_injection": false
+  },
+  "facts": {
+    "intent": {
+      "booking_references": [
+        "BA-99201"
+      ],
+      "flight_numbers": [
+        "BA-99201"
+      ],
+      "passenger_requests": [
+        {
+          "passenger_name": "Peter Lindqvist",
+          "requested_actions": [
+            "compensation",
+            "other"
+          ]
+        }
+      ],
+      "requested_amount": null,
+      "destination": "Manchester",
+      "preferred_date": null,
+      "deadline": "2026-08-19",
+      "language": "English",
+      "is_prompt_injection": false
+    },
+    "booking": null,
+    "flight": null,
+    "entitlement": null,
+    "availability": [],
+    "needs_rebooking": false,
+    "booking_verified": false,
+    "identity_ambiguous": false,
+    "request_requires_unsupported_action": false
+  },
+  "decision": {
+    "actions": [],
+    "escalate": true,
+    "escalation_reason": "Booking could not be verified."
+  },
+  "actions_taken": [
+    {
+      "action": {
+        "type": "escalate",
+        "description": "Global escalation",
+        "risk_level": "LOW",
+        "reasoning": [],
+        "authoritative_sources": [],
+        "safety_checks": {}
+      },
+      "success": true,
+      "message": "Escalated: {'escalation_id': 'ESC-00006', 'raised_at': '2026-08-22T13:37:26Z', 'status': 'OPEN', 'queue': 'GENERAL', 'summary': 'Case escalated by AI', 'requested_decision': 'Booking could not be verified.'}"
+    }
+  ],
+  "escalation_reason": "Booking could not be verified.",
+  "draft_handoff": "ESCALATION BRIEFING:\nReason: Booking could not be verified.\nFacts Summary: {\"intent\":{\"booking_references\":[\"BA-99201\"],\"flight_numbers\":[\"BA-99201\"],\"passenger_requests\":[{\"passenger_name\":\"Peter Lindqvist\",\"requested_actions\":[\"compensation\",\"other\"]}],\"requested_amount\":null,\"destination\":\"Manchester\",\"preferred_date\":null,\"deadline\":\"2026-08-19\",\"language\":\"English\",\"is_prompt_injection\":false},\"booking\":null,\"flight\":null,\"entitlement\":null,\"availability\":[],\"needs_rebooking\":false,\"booking_verified\":false,\"identity_ambiguous\":false,\"request_requires_unsupported_action\":false}",
+  "draft_reply": null
+}

@@ -1,0 +1,72 @@
+{
+  "case_id": "case-03",
+  "status": "escalated",
+  "intent": {
+    "booking_references": [],
+    "flight_numbers": [],
+    "passenger_requests": [
+      {
+        "passenger_name": "John Smith",
+        "requested_actions": [
+          "compensation"
+        ]
+      }
+    ],
+    "requested_amount": null,
+    "destination": null,
+    "preferred_date": null,
+    "deadline": null,
+    "language": "en",
+    "is_prompt_injection": false
+  },
+  "facts": {
+    "intent": {
+      "booking_references": [],
+      "flight_numbers": [],
+      "passenger_requests": [
+        {
+          "passenger_name": "John Smith",
+          "requested_actions": [
+            "compensation"
+          ]
+        }
+      ],
+      "requested_amount": null,
+      "destination": null,
+      "preferred_date": null,
+      "deadline": null,
+      "language": "en",
+      "is_prompt_injection": false
+    },
+    "booking": null,
+    "flight": null,
+    "entitlement": null,
+    "availability": [],
+    "needs_rebooking": false,
+    "booking_verified": false,
+    "identity_ambiguous": true,
+    "request_requires_unsupported_action": false
+  },
+  "decision": {
+    "actions": [],
+    "escalate": true,
+    "escalation_reason": "Identity ambiguous (multiple bookings found)."
+  },
+  "actions_taken": [
+    {
+      "action": {
+        "type": "escalate",
+        "description": "Global escalation",
+        "risk_level": "LOW",
+        "reasoning": [],
+        "authoritative_sources": [],
+        "safety_checks": {}
+      },
+      "success": true,
+      "message": "Escalated: {'escalation_id': 'ESC-00005', 'raised_at': '2026-08-22T13:37:23Z', 'status': 'OPEN', 'queue': 'GENERAL', 'summary': 'Case escalated by AI', 'requested_decision': 'Identity ambiguous (multiple bookings found).'}"
+    }
+  ],
+  "escalation_reason": "Identity ambiguous (multiple bookings found).",
+  "draft_handoff": "ESCALATION BRIEFING:\nReason: Identity ambiguous (multiple bookings found).\nFacts Summary: {\"intent\":{\"booking_references\":[],\"flight_numbers\":[],\"passenger_requests\":[{\"passenger_name\":\"John Smith\",\"requested_actions\":[\"compensation\"]}],\"requested_amount\":null,\"destination\":null,\"preferred_date\":null,\"deadline\":null,\"language\":\"en\",\"is_prompt_injection\":false},\"booking\":null,\"flight\":null,\"entitlement\":null,\"availability\":[],\"needs_rebooking\":false,\"booking_verified\":false,\"identity_ambiguous\":true,\"request_requires_unsupported_action\":false}",
+  "draft_reply": null
+}

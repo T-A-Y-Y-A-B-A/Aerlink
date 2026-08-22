@@ -1,0 +1,278 @@
+{
+  "case_id": "case-07",
+  "status": "resolved",
+  "intent": {
+    "booking_references": [
+      "AER-6H1Z7C"
+    ],
+    "flight_numbers": [
+      "AK307"
+    ],
+    "passenger_requests": [
+      {
+        "passenger_name": "Rachel Oyelaran",
+        "requested_actions": [
+          "compensation"
+        ]
+      }
+    ],
+    "requested_amount": 900.0,
+    "destination": "Madrid",
+    "preferred_date": null,
+    "deadline": null,
+    "language": "English",
+    "is_prompt_injection": false
+  },
+  "facts": {
+    "intent": {
+      "booking_references": [
+        "AER-6H1Z7C"
+      ],
+      "flight_numbers": [
+        "AK307"
+      ],
+      "passenger_requests": [
+        {
+          "passenger_name": "Rachel Oyelaran",
+          "requested_actions": [
+            "compensation"
+          ]
+        }
+      ],
+      "requested_amount": 900.0,
+      "destination": "Madrid",
+      "preferred_date": null,
+      "deadline": null,
+      "language": "English",
+      "is_prompt_injection": false
+    },
+    "booking": {
+      "booking_reference": "AER-6H1Z7C",
+      "passengers": [
+        {
+          "passenger_id": "P1",
+          "first_name": "",
+          "last_name": "",
+          "special_assistance": null
+        }
+      ],
+      "flights": [
+        "AK307"
+      ],
+      "status": {
+        "affected_segment": "S1",
+        "rerouted_onto": "AK309:2026-08-02",
+        "arrival_delay_minutes": 270,
+        "informed_days_before": 0
+      }
+    },
+    "flight": null,
+    "entitlement": {
+      "compensation_amount": 220.0,
+      "hotel_allowed": false,
+      "rebooking_allowed": true,
+      "refund_allowed": true
+    },
+    "availability": [
+      {
+        "option_id": "OPT-D718174549",
+        "flight_number": "AK240",
+        "departure_time": "05:05",
+        "available_seats": 3,
+        "date": "2026-08-02",
+        "cabin": "BUSINESS"
+      },
+      {
+        "option_id": "OPT-A9D5968593",
+        "flight_number": "AK626",
+        "departure_time": "05:15",
+        "available_seats": 5,
+        "date": "2026-08-02",
+        "cabin": "BUSINESS"
+      },
+      {
+        "option_id": "OPT-9A21559A4D",
+        "flight_number": "AK710",
+        "departure_time": "05:35",
+        "available_seats": 2,
+        "date": "2026-08-02",
+        "cabin": "BUSINESS"
+      },
+      {
+        "option_id": "OPT-D0551457E4",
+        "flight_number": "AK696",
+        "departure_time": "05:35",
+        "available_seats": 7,
+        "date": "2026-08-02",
+        "cabin": "ECONOMY"
+      },
+      {
+        "option_id": "OPT-913FC92070",
+        "flight_number": "AK326",
+        "departure_time": "05:40",
+        "available_seats": 9,
+        "date": "2026-08-02",
+        "cabin": "ECONOMY"
+      },
+      {
+        "option_id": "OPT-E52FEBCBE8",
+        "flight_number": "AK136",
+        "departure_time": "05:45",
+        "available_seats": 7,
+        "date": "2026-08-02",
+        "cabin": "ECONOMY"
+      },
+      {
+        "option_id": "OPT-389D227474",
+        "flight_number": "AK149",
+        "departure_time": "06:10",
+        "available_seats": 9,
+        "date": "2026-08-02",
+        "cabin": "PREMIUM"
+      },
+      {
+        "option_id": "OPT-3B6B5AE478",
+        "flight_number": "AK106",
+        "departure_time": "06:10",
+        "available_seats": 8,
+        "date": "2026-08-02",
+        "cabin": "ECONOMY"
+      },
+      {
+        "option_id": "OPT-5D528B5760",
+        "flight_number": "AK866",
+        "departure_time": "06:50",
+        "available_seats": 8,
+        "date": "2026-08-02",
+        "cabin": "ECONOMY"
+      },
+      {
+        "option_id": "OPT-993DDBA4BE",
+        "flight_number": "AK143",
+        "departure_time": "06:55",
+        "available_seats": 9,
+        "date": "2026-08-02",
+        "cabin": "ECONOMY"
+      },
+      {
+        "option_id": "OPT-BD245ECFD5",
+        "flight_number": "AK668",
+        "departure_time": "07:05",
+        "available_seats": 4,
+        "date": "2026-08-02",
+        "cabin": "BUSINESS"
+      },
+      {
+        "option_id": "OPT-FE57C42204",
+        "flight_number": "AK920",
+        "departure_time": "07:20",
+        "available_seats": 4,
+        "date": "2026-08-02",
+        "cabin": "ECONOMY"
+      },
+      {
+        "option_id": "OPT-88EE1DAA7B",
+        "flight_number": "AK554",
+        "departure_time": "07:30",
+        "available_seats": 4,
+        "date": "2026-08-02",
+        "cabin": "ECONOMY"
+      },
+      {
+        "option_id": "OPT-916E60E8D6",
+        "flight_number": "AK842",
+        "departure_time": "07:35",
+        "available_seats": 5,
+        "date": "2026-08-02",
+        "cabin": "ECONOMY"
+      },
+      {
+        "option_id": "OPT-C67106185D",
+        "flight_number": "AK331",
+        "departure_time": "07:50",
+        "available_seats": 3,
+        "date": "2026-08-02",
+        "cabin": "ECONOMY"
+      },
+      {
+        "option_id": "OPT-EC4C9BE5E7",
+        "flight_number": "AK706",
+        "departure_time": "08:10",
+        "available_seats": 4,
+        "date": "2026-08-02",
+        "cabin": "ECONOMY"
+      },
+      {
+        "option_id": "OPT-4456855B44",
+        "flight_number": "AK154",
+        "departure_time": "08:25",
+        "available_seats": 6,
+        "date": "2026-08-02",
+        "cabin": "ECONOMY"
+      },
+      {
+        "option_id": "OPT-1D8DC6D52D",
+        "flight_number": "AK772",
+        "departure_time": "08:45",
+        "available_seats": 9,
+        "date": "2026-08-02",
+        "cabin": "PREMIUM"
+      }
+    ],
+    "needs_rebooking": true,
+    "booking_verified": true,
+    "identity_ambiguous": false,
+    "request_requires_unsupported_action": false
+  },
+  "decision": {
+    "actions": [
+      {
+        "type": "compensation",
+        "description": "Pay compensation \u00a3220.0 to P1",
+        "risk_level": "HIGH",
+        "reasoning": [
+          "Booking verified",
+          "Passenger requested compensation",
+          "Passenger is entitled to compensation"
+        ],
+        "authoritative_sources": [
+          "booking_api",
+          "entitlement_api"
+        ],
+        "safety_checks": {
+          "identity_verified": true,
+          "entitlement_confirmed": true
+        }
+      }
+    ],
+    "escalate": false,
+    "escalation_reason": null
+  },
+  "actions_taken": [
+    {
+      "action": {
+        "type": "compensation",
+        "description": "Pay compensation \u00a3220.0 to P1",
+        "risk_level": "HIGH",
+        "reasoning": [
+          "Booking verified",
+          "Passenger requested compensation",
+          "Passenger is entitled to compensation"
+        ],
+        "authoritative_sources": [
+          "booking_api",
+          "entitlement_api"
+        ],
+        "safety_checks": {
+          "identity_verified": true,
+          "entitlement_confirmed": true
+        }
+      },
+      "success": true,
+      "message": "{'payment_id': 'CMP-00010', 'type': 'COMPENSATION', 'paid_at': '2026-08-22T13:37:54Z', 'status': 'PAID', 'amount_gbp': 220.0, 'booking_ref': 'AER-6H1Z7C', 'passenger_ids': ['P1'], 'reason': 'Automated compensation'}"
+    }
+  ],
+  "escalation_reason": null,
+  "draft_handoff": null,
+  "draft_reply": "Dear Customer,\n\nBased on your message, we have processed the following for booking(s) AER-6H1Z7C:\n- {'payment_id': 'CMP-00010', 'type': 'COMPENSATION', 'paid_at': '2026-08-22T13:37:54Z', 'status': 'PAID', 'amount_gbp': 220.0, 'booking_ref': 'AER-6H1Z7C', 'passenger_ids': ['P1'], 'reason': 'Automated compensation'}\n\nThank you for flying with Aerlink."
+}

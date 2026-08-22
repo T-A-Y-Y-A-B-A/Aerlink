@@ -1,0 +1,498 @@
+{
+  "case_id": "case-02",
+  "status": "partially_resolved",
+  "intent": {
+    "booking_references": [
+      "AER-7T3M1B"
+    ],
+    "flight_numbers": [
+      "AK220"
+    ],
+    "passenger_requests": [
+      {
+        "passenger_name": "Chidi Okonkwo",
+        "requested_actions": [
+          "rebook"
+        ]
+      },
+      {
+        "passenger_name": "Adaeze Okonkwo",
+        "requested_actions": [
+          "rebook"
+        ]
+      },
+      {
+        "passenger_name": "Emeka Okonkwo",
+        "requested_actions": [
+          "rebook"
+        ]
+      },
+      {
+        "passenger_name": "Ngozi Okonkwo",
+        "requested_actions": [
+          "rebook"
+        ]
+      },
+      {
+        "passenger_name": "Tobias Achebe",
+        "requested_actions": [
+          "refund"
+        ]
+      }
+    ],
+    "requested_amount": null,
+    "destination": "Rome",
+    "preferred_date": "Friday",
+    "deadline": null,
+    "language": "English",
+    "is_prompt_injection": false
+  },
+  "facts": {
+    "intent": {
+      "booking_references": [
+        "AER-7T3M1B"
+      ],
+      "flight_numbers": [
+        "AK220"
+      ],
+      "passenger_requests": [
+        {
+          "passenger_name": "Chidi Okonkwo",
+          "requested_actions": [
+            "rebook"
+          ]
+        },
+        {
+          "passenger_name": "Adaeze Okonkwo",
+          "requested_actions": [
+            "rebook"
+          ]
+        },
+        {
+          "passenger_name": "Emeka Okonkwo",
+          "requested_actions": [
+            "rebook"
+          ]
+        },
+        {
+          "passenger_name": "Ngozi Okonkwo",
+          "requested_actions": [
+            "rebook"
+          ]
+        },
+        {
+          "passenger_name": "Tobias Achebe",
+          "requested_actions": [
+            "refund"
+          ]
+        }
+      ],
+      "requested_amount": null,
+      "destination": "Rome",
+      "preferred_date": "Friday",
+      "deadline": null,
+      "language": "English",
+      "is_prompt_injection": false
+    },
+    "booking": {
+      "booking_reference": "AER-7T3M1B",
+      "passengers": [
+        {
+          "passenger_id": "P1",
+          "first_name": "",
+          "last_name": "",
+          "special_assistance": null
+        },
+        {
+          "passenger_id": "P2",
+          "first_name": "",
+          "last_name": "",
+          "special_assistance": null
+        },
+        {
+          "passenger_id": "P3",
+          "first_name": "",
+          "last_name": "",
+          "special_assistance": null
+        },
+        {
+          "passenger_id": "P4",
+          "first_name": "",
+          "last_name": "",
+          "special_assistance": "WCHR"
+        },
+        {
+          "passenger_id": "P5",
+          "first_name": "",
+          "last_name": "",
+          "special_assistance": null
+        }
+      ],
+      "flights": [
+        "AK220"
+      ],
+      "status": {
+        "affected_segment": "S1",
+        "rerouted_onto": null,
+        "arrival_delay_minutes": null,
+        "informed_days_before": 0
+      }
+    },
+    "flight": null,
+    "entitlement": {
+      "compensation_amount": 0.0,
+      "hotel_allowed": false,
+      "rebooking_allowed": true,
+      "refund_allowed": true
+    },
+    "availability": [
+      {
+        "option_id": "OPT-4ED7AC960C",
+        "flight_number": "AK486",
+        "departure_time": "05:10",
+        "available_seats": 5,
+        "date": "Friday",
+        "cabin": "PREMIUM"
+      },
+      {
+        "option_id": "OPT-4DC3A64FF0",
+        "flight_number": "AK127",
+        "departure_time": "05:40",
+        "available_seats": 9,
+        "date": "Friday",
+        "cabin": "PREMIUM"
+      },
+      {
+        "option_id": "OPT-49546C7AF5",
+        "flight_number": "AK621",
+        "departure_time": "05:40",
+        "available_seats": 1,
+        "date": "Friday",
+        "cabin": "ECONOMY"
+      },
+      {
+        "option_id": "OPT-A231E46420",
+        "flight_number": "AK605",
+        "departure_time": "06:05",
+        "available_seats": 8,
+        "date": "Friday",
+        "cabin": "ECONOMY"
+      },
+      {
+        "option_id": "OPT-C57492DCCE",
+        "flight_number": "AK631",
+        "departure_time": "07:20",
+        "available_seats": 1,
+        "date": "Friday",
+        "cabin": "ECONOMY"
+      },
+      {
+        "option_id": "OPT-7172744251",
+        "flight_number": "AK944",
+        "departure_time": "09:20",
+        "available_seats": 5,
+        "date": "Friday",
+        "cabin": "ECONOMY"
+      },
+      {
+        "option_id": "OPT-593AD5B88B",
+        "flight_number": "AK952",
+        "departure_time": "09:40",
+        "available_seats": 7,
+        "date": "Friday",
+        "cabin": "ECONOMY"
+      },
+      {
+        "option_id": "OPT-13511B2540",
+        "flight_number": "AK740",
+        "departure_time": "09:45",
+        "available_seats": 1,
+        "date": "Friday",
+        "cabin": "BUSINESS"
+      },
+      {
+        "option_id": "OPT-2A8664EA4F",
+        "flight_number": "AK461",
+        "departure_time": "09:50",
+        "available_seats": 6,
+        "date": "Friday",
+        "cabin": "ECONOMY"
+      },
+      {
+        "option_id": "OPT-E0A0064321",
+        "flight_number": "AK133",
+        "departure_time": "10:05",
+        "available_seats": 2,
+        "date": "Friday",
+        "cabin": "ECONOMY"
+      },
+      {
+        "option_id": "OPT-8D5A36ACCC",
+        "flight_number": "AK204",
+        "departure_time": "10:15",
+        "available_seats": 9,
+        "date": "Friday",
+        "cabin": "ECONOMY"
+      },
+      {
+        "option_id": "OPT-2EDEF3FFDA",
+        "flight_number": "AK867",
+        "departure_time": "10:45",
+        "available_seats": 3,
+        "date": "Friday",
+        "cabin": "PREMIUM"
+      },
+      {
+        "option_id": "OPT-F354139AB2",
+        "flight_number": "AK678",
+        "departure_time": "11:00",
+        "available_seats": 3,
+        "date": "Friday",
+        "cabin": "ECONOMY"
+      },
+      {
+        "option_id": "OPT-637F82F0E4",
+        "flight_number": "AK336",
+        "departure_time": "11:30",
+        "available_seats": 9,
+        "date": "Friday",
+        "cabin": "ECONOMY"
+      },
+      {
+        "option_id": "OPT-BFFED70341",
+        "flight_number": "AK772",
+        "departure_time": "11:40",
+        "available_seats": 5,
+        "date": "Friday",
+        "cabin": "BUSINESS"
+      },
+      {
+        "option_id": "OPT-08FF38B460",
+        "flight_number": "AK244",
+        "departure_time": "12:00",
+        "available_seats": 8,
+        "date": "Friday",
+        "cabin": "ECONOMY"
+      },
+      {
+        "option_id": "OPT-DF972DF61E",
+        "flight_number": "AK477",
+        "departure_time": "12:15",
+        "available_seats": 7,
+        "date": "Friday",
+        "cabin": "ECONOMY"
+      }
+    ],
+    "needs_rebooking": true,
+    "booking_verified": true,
+    "identity_ambiguous": false,
+    "request_requires_unsupported_action": false
+  },
+  "decision": {
+    "actions": [
+      {
+        "type": "rebook",
+        "description": "Rebook passenger P5 to AK486",
+        "risk_level": "MEDIUM",
+        "reasoning": [
+          "Booking verified",
+          "Original flight cancelled",
+          "Passenger requested rebook",
+          "Available flight satisfies requirements"
+        ],
+        "authoritative_sources": [
+          "booking_api",
+          "availability_api"
+        ],
+        "safety_checks": {
+          "identity_verified": true,
+          "availability_confirmed": true,
+          "special_assistance_clear": true
+        }
+      },
+      {
+        "type": "rebook",
+        "description": "Rebook passenger P5 to AK486",
+        "risk_level": "MEDIUM",
+        "reasoning": [
+          "Booking verified",
+          "Original flight cancelled",
+          "Passenger requested rebook",
+          "Available flight satisfies requirements"
+        ],
+        "authoritative_sources": [
+          "booking_api",
+          "availability_api"
+        ],
+        "safety_checks": {
+          "identity_verified": true,
+          "availability_confirmed": true,
+          "special_assistance_clear": true
+        }
+      },
+      {
+        "type": "rebook",
+        "description": "Rebook passenger P5 to AK486",
+        "risk_level": "MEDIUM",
+        "reasoning": [
+          "Booking verified",
+          "Original flight cancelled",
+          "Passenger requested rebook",
+          "Available flight satisfies requirements"
+        ],
+        "authoritative_sources": [
+          "booking_api",
+          "availability_api"
+        ],
+        "safety_checks": {
+          "identity_verified": true,
+          "availability_confirmed": true,
+          "special_assistance_clear": true
+        }
+      },
+      {
+        "type": "rebook",
+        "description": "Rebook passenger P5 to AK486",
+        "risk_level": "MEDIUM",
+        "reasoning": [
+          "Booking verified",
+          "Original flight cancelled",
+          "Passenger requested rebook",
+          "Available flight satisfies requirements"
+        ],
+        "authoritative_sources": [
+          "booking_api",
+          "availability_api"
+        ],
+        "safety_checks": {
+          "identity_verified": true,
+          "availability_confirmed": true,
+          "special_assistance_clear": true
+        }
+      },
+      {
+        "type": "escalate",
+        "description": "Escalate refund for P5: requires manual review",
+        "risk_level": "LOW",
+        "reasoning": [],
+        "authoritative_sources": [],
+        "safety_checks": {}
+      }
+    ],
+    "escalate": false,
+    "escalation_reason": null
+  },
+  "actions_taken": [
+    {
+      "action": {
+        "type": "rebook",
+        "description": "Rebook passenger P5 to AK486",
+        "risk_level": "MEDIUM",
+        "reasoning": [
+          "Booking verified",
+          "Original flight cancelled",
+          "Passenger requested rebook",
+          "Available flight satisfies requirements"
+        ],
+        "authoritative_sources": [
+          "booking_api",
+          "availability_api"
+        ],
+        "safety_checks": {
+          "identity_verified": true,
+          "availability_confirmed": true,
+          "special_assistance_clear": true
+        }
+      },
+      "success": true,
+      "message": "{'rebooking_id': 'RBK-00003', 'confirmed_at': '2026-08-22T13:37:20Z', 'status': 'CONFIRMED', 'booking_ref': 'AER-7T3M1B', 'passenger_ids': ['P5'], 'option_id': 'OPT-4ED7AC960C', 'flight_no': 'AK486', 'date': 'Friday', 'cabin': 'PREMIUM', 'fare_gbp': 0.0, 'notes': ''}"
+    },
+    {
+      "action": {
+        "type": "rebook",
+        "description": "Rebook passenger P5 to AK486",
+        "risk_level": "MEDIUM",
+        "reasoning": [
+          "Booking verified",
+          "Original flight cancelled",
+          "Passenger requested rebook",
+          "Available flight satisfies requirements"
+        ],
+        "authoritative_sources": [
+          "booking_api",
+          "availability_api"
+        ],
+        "safety_checks": {
+          "identity_verified": true,
+          "availability_confirmed": true,
+          "special_assistance_clear": true
+        }
+      },
+      "success": true,
+      "message": "Already executed (idempotency cache hit)"
+    },
+    {
+      "action": {
+        "type": "rebook",
+        "description": "Rebook passenger P5 to AK486",
+        "risk_level": "MEDIUM",
+        "reasoning": [
+          "Booking verified",
+          "Original flight cancelled",
+          "Passenger requested rebook",
+          "Available flight satisfies requirements"
+        ],
+        "authoritative_sources": [
+          "booking_api",
+          "availability_api"
+        ],
+        "safety_checks": {
+          "identity_verified": true,
+          "availability_confirmed": true,
+          "special_assistance_clear": true
+        }
+      },
+      "success": true,
+      "message": "Already executed (idempotency cache hit)"
+    },
+    {
+      "action": {
+        "type": "rebook",
+        "description": "Rebook passenger P5 to AK486",
+        "risk_level": "MEDIUM",
+        "reasoning": [
+          "Booking verified",
+          "Original flight cancelled",
+          "Passenger requested rebook",
+          "Available flight satisfies requirements"
+        ],
+        "authoritative_sources": [
+          "booking_api",
+          "availability_api"
+        ],
+        "safety_checks": {
+          "identity_verified": true,
+          "availability_confirmed": true,
+          "special_assistance_clear": true
+        }
+      },
+      "success": true,
+      "message": "Already executed (idempotency cache hit)"
+    },
+    {
+      "action": {
+        "type": "escalate",
+        "description": "Escalate refund for P5: requires manual review",
+        "risk_level": "LOW",
+        "reasoning": [],
+        "authoritative_sources": [],
+        "safety_checks": {}
+      },
+      "success": true,
+      "message": "{'escalation_id': 'ESC-00004', 'raised_at': '2026-08-22T13:37:20Z', 'status': 'OPEN', 'queue': 'GENERAL', 'summary': 'Partial passenger-level escalation', 'requested_decision': 'Refund requested; requires manual review.', 'booking_ref': 'AER-7T3M1B'}"
+    }
+  ],
+  "escalation_reason": null,
+  "draft_handoff": "ESCALATION BRIEFING:\nReason: Partial escalation required for some passengers/actions\nFacts Summary: {\"intent\":{\"booking_references\":[\"AER-7T3M1B\"],\"flight_numbers\":[\"AK220\"],\"passenger_requests\":[{\"passenger_name\":\"Chidi Okonkwo\",\"requested_actions\":[\"rebook\"]},{\"passenger_name\":\"Adaeze Okonkwo\",\"requested_actions\":[\"rebook\"]},{\"passenger_name\":\"Emeka Okonkwo\",\"requested_actions\":[\"rebook\"]},{\"passenger_name\":\"Ngozi Okonkwo\",\"requested_actions\":[\"rebook\"]},{\"passenger_name\":\"Tobias Achebe\",\"requested_actions\":[\"refund\"]}],\"requested_amount\":null,\"destination\":\"Rome\",\"preferred_date\":\"Friday\",\"deadline\":null,\"language\":\"English\",\"is_prompt_injection\":false},\"booking\":{\"booking_reference\":\"AER-7T3M1B\",\"passengers\":[{\"passenger_id\":\"P1\",\"first_name\":\"\",\"last_name\":\"\",\"special_assistance\":null},{\"passenger_id\":\"P2\",\"first_name\":\"\",\"last_name\":\"\",\"special_assistance\":null},{\"passenger_id\":\"P3\",\"first_name\":\"\",\"last_name\":\"\",\"special_assistance\":null},{\"passenger_id\":\"P4\",\"first_name\":\"\",\"last_name\":\"\",\"special_assistance\":\"WCHR\"},{\"passenger_id\":\"P5\",\"first_name\":\"\",\"last_name\":\"\",\"special_assistance\":null}],\"flights\":[\"AK220\"],\"status\":{\"affected_segment\":\"S1\",\"rerouted_onto\":null,\"arrival_delay_minutes\":null,\"informed_days_before\":0}},\"flight\":null,\"entitlement\":{\"compensation_amount\":0.0,\"hotel_allowed\":false,\"rebooking_allowed\":true,\"refund_allowed\":true},\"availability\":[{\"option_id\":\"OPT-4ED7AC960C\",\"flight_number\":\"AK486\",\"departure_time\":\"05:10\",\"available_seats\":5,\"date\":\"Friday\",\"cabin\":\"PREMIUM\"},{\"option_id\":\"OPT-4DC3A64FF0\",\"flight_number\":\"AK127\",\"departure_time\":\"05:40\",\"available_seats\":9,\"date\":\"Friday\",\"cabin\":\"PREMIUM\"},{\"option_id\":\"OPT-49546C7AF5\",\"flight_number\":\"AK621\",\"departure_time\":\"05:40\",\"available_seats\":1,\"date\":\"Friday\",\"cabin\":\"ECONOMY\"},{\"option_id\":\"OPT-A231E46420\",\"flight_number\":\"AK605\",\"departure_time\":\"06:05\",\"available_seats\":8,\"date\":\"Friday\",\"cabin\":\"ECONOMY\"},{\"option_id\":\"OPT-C57492DCCE\",\"flight_number\":\"AK631\",\"departure_time\":\"07:20\",\"available_seats\":1,\"date\":\"Friday\",\"cabin\":\"ECONOMY\"},{\"option_id\":\"OPT-7172744251\",\"flight_number\":\"AK944\",\"departure_time\":\"09:20\",\"available_seats\":5,\"date\":\"Friday\",\"cabin\":\"ECONOMY\"},{\"option_id\":\"OPT-593AD5B88B\",\"flight_number\":\"AK952\",\"departure_time\":\"09:40\",\"available_seats\":7,\"date\":\"Friday\",\"cabin\":\"ECONOMY\"},{\"option_id\":\"OPT-13511B2540\",\"flight_number\":\"AK740\",\"departure_time\":\"09:45\",\"available_seats\":1,\"date\":\"Friday\",\"cabin\":\"BUSINESS\"},{\"option_id\":\"OPT-2A8664EA4F\",\"flight_number\":\"AK461\",\"departure_time\":\"09:50\",\"available_seats\":6,\"date\":\"Friday\",\"cabin\":\"ECONOMY\"},{\"option_id\":\"OPT-E0A0064321\",\"flight_number\":\"AK133\",\"departure_time\":\"10:05\",\"available_seats\":2,\"date\":\"Friday\",\"cabin\":\"ECONOMY\"},{\"option_id\":\"OPT-8D5A36ACCC\",\"flight_number\":\"AK204\",\"departure_time\":\"10:15\",\"available_seats\":9,\"date\":\"Friday\",\"cabin\":\"ECONOMY\"},{\"option_id\":\"OPT-2EDEF3FFDA\",\"flight_number\":\"AK867\",\"departure_time\":\"10:45\",\"available_seats\":3,\"date\":\"Friday\",\"cabin\":\"PREMIUM\"},{\"option_id\":\"OPT-F354139AB2\",\"flight_number\":\"AK678\",\"departure_time\":\"11:00\",\"available_seats\":3,\"date\":\"Friday\",\"cabin\":\"ECONOMY\"},{\"option_id\":\"OPT-637F82F0E4\",\"flight_number\":\"AK336\",\"departure_time\":\"11:30\",\"available_seats\":9,\"date\":\"Friday\",\"cabin\":\"ECONOMY\"},{\"option_id\":\"OPT-BFFED70341\",\"flight_number\":\"AK772\",\"departure_time\":\"11:40\",\"available_seats\":5,\"date\":\"Friday\",\"cabin\":\"BUSINESS\"},{\"option_id\":\"OPT-08FF38B460\",\"flight_number\":\"AK244\",\"departure_time\":\"12:00\",\"available_seats\":8,\"date\":\"Friday\",\"cabin\":\"ECONOMY\"},{\"option_id\":\"OPT-DF972DF61E\",\"flight_number\":\"AK477\",\"departure_time\":\"12:15\",\"available_seats\":7,\"date\":\"Friday\",\"cabin\":\"ECONOMY\"}],\"needs_rebooking\":true,\"booking_verified\":true,\"identity_ambiguous\":false,\"request_requires_unsupported_action\":false}",
+  "draft_reply": "Dear Customer,\n\nBased on your message, we have processed the following for booking(s) AER-7T3M1B:\n- {'rebooking_id': 'RBK-00003', 'confirmed_at': '2026-08-22T13:37:20Z', 'status': 'CONFIRMED', 'booking_ref': 'AER-7T3M1B', 'passenger_ids': ['P5'], 'option_id': 'OPT-4ED7AC960C', 'flight_no': 'AK486', 'date': 'Friday', 'cabin': 'PREMIUM', 'fare_gbp': 0.0, 'notes': ''}\n- Already executed (idempotency cache hit)\n- Already executed (idempotency cache hit)\n- Already executed (idempotency cache hit)\n- {'escalation_id': 'ESC-00004', 'raised_at': '2026-08-22T13:37:20Z', 'status': 'OPEN', 'queue': 'GENERAL', 'summary': 'Partial passenger-level escalation', 'requested_decision': 'Refund requested; requires manual review.', 'booking_ref': 'AER-7T3M1B'}\n\nThank you for flying with Aerlink."
+}

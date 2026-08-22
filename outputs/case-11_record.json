@@ -1,0 +1,310 @@
+{
+  "case_id": "case-11",
+  "status": "partially_resolved",
+  "intent": {
+    "booking_references": [
+      "AER-7P4R2M"
+    ],
+    "flight_numbers": [
+      "AK150"
+    ],
+    "passenger_requests": [
+      {
+        "passenger_name": "Kenneth Braithwaite",
+        "requested_actions": [
+          "hotel",
+          "rebook",
+          "baggage"
+        ]
+      }
+    ],
+    "requested_amount": null,
+    "destination": "Rome",
+    "preferred_date": null,
+    "deadline": null,
+    "language": "en",
+    "is_prompt_injection": false
+  },
+  "facts": {
+    "intent": {
+      "booking_references": [
+        "AER-7P4R2M"
+      ],
+      "flight_numbers": [
+        "AK150"
+      ],
+      "passenger_requests": [
+        {
+          "passenger_name": "Kenneth Braithwaite",
+          "requested_actions": [
+            "hotel",
+            "rebook",
+            "baggage"
+          ]
+        }
+      ],
+      "requested_amount": null,
+      "destination": "Rome",
+      "preferred_date": null,
+      "deadline": null,
+      "language": "en",
+      "is_prompt_injection": false
+    },
+    "booking": {
+      "booking_reference": "AER-7P4R2M",
+      "passengers": [
+        {
+          "passenger_id": "P1",
+          "first_name": "",
+          "last_name": "",
+          "special_assistance": null
+        }
+      ],
+      "flights": [
+        "AK150"
+      ],
+      "status": {
+        "affected_segment": "S1",
+        "rerouted_onto": null,
+        "arrival_delay_minutes": null,
+        "informed_days_before": 0
+      }
+    },
+    "flight": null,
+    "entitlement": {
+      "compensation_amount": 0.0,
+      "hotel_allowed": false,
+      "rebooking_allowed": true,
+      "refund_allowed": true
+    },
+    "availability": [
+      {
+        "option_id": "OPT-36684BED70",
+        "flight_number": "AK212",
+        "departure_time": "05:15",
+        "available_seats": 9,
+        "date": "2026-08-06",
+        "cabin": "ECONOMY"
+      },
+      {
+        "option_id": "OPT-667456905A",
+        "flight_number": "AK725",
+        "departure_time": "05:20",
+        "available_seats": 1,
+        "date": "2026-08-06",
+        "cabin": "ECONOMY"
+      },
+      {
+        "option_id": "OPT-79A7829779",
+        "flight_number": "AK737",
+        "departure_time": "05:20",
+        "available_seats": 8,
+        "date": "2026-08-06",
+        "cabin": "BUSINESS"
+      },
+      {
+        "option_id": "OPT-03FB3887EE",
+        "flight_number": "AK377",
+        "departure_time": "05:20",
+        "available_seats": 2,
+        "date": "2026-08-06",
+        "cabin": "ECONOMY"
+      },
+      {
+        "option_id": "OPT-982E2F3090",
+        "flight_number": "AK669",
+        "departure_time": "05:30",
+        "available_seats": 6,
+        "date": "2026-08-06",
+        "cabin": "ECONOMY"
+      },
+      {
+        "option_id": "OPT-374EB11A7C",
+        "flight_number": "AK525",
+        "departure_time": "05:45",
+        "available_seats": 4,
+        "date": "2026-08-06",
+        "cabin": "ECONOMY"
+      },
+      {
+        "option_id": "OPT-66D9CF6F43",
+        "flight_number": "AK614",
+        "departure_time": "06:05",
+        "available_seats": 6,
+        "date": "2026-08-06",
+        "cabin": "PREMIUM"
+      },
+      {
+        "option_id": "OPT-67AC7B6450",
+        "flight_number": "AK424",
+        "departure_time": "06:10",
+        "available_seats": 3,
+        "date": "2026-08-06",
+        "cabin": "BUSINESS"
+      },
+      {
+        "option_id": "OPT-AD75AE4D18",
+        "flight_number": "AK938",
+        "departure_time": "07:05",
+        "available_seats": 3,
+        "date": "2026-08-06",
+        "cabin": "ECONOMY"
+      },
+      {
+        "option_id": "OPT-8D8A954C59",
+        "flight_number": "AK361",
+        "departure_time": "07:10",
+        "available_seats": 9,
+        "date": "2026-08-06",
+        "cabin": "ECONOMY"
+      },
+      {
+        "option_id": "OPT-31C1FA129E",
+        "flight_number": "AK536",
+        "departure_time": "07:30",
+        "available_seats": 1,
+        "date": "2026-08-06",
+        "cabin": "ECONOMY"
+      },
+      {
+        "option_id": "OPT-AD17127F45",
+        "flight_number": "AK524",
+        "departure_time": "07:30",
+        "available_seats": 6,
+        "date": "2026-08-06",
+        "cabin": "ECONOMY"
+      },
+      {
+        "option_id": "OPT-31F43B9AE7",
+        "flight_number": "AK591",
+        "departure_time": "08:55",
+        "available_seats": 9,
+        "date": "2026-08-06",
+        "cabin": "BUSINESS"
+      },
+      {
+        "option_id": "OPT-6A1269FC1E",
+        "flight_number": "AK892",
+        "departure_time": "09:30",
+        "available_seats": 7,
+        "date": "2026-08-06",
+        "cabin": "PREMIUM"
+      },
+      {
+        "option_id": "OPT-F355D7ECB6",
+        "flight_number": "AK489",
+        "departure_time": "09:55",
+        "available_seats": 7,
+        "date": "2026-08-06",
+        "cabin": "ECONOMY"
+      },
+      {
+        "option_id": "OPT-5E76743419",
+        "flight_number": "AK290",
+        "departure_time": "10:05",
+        "available_seats": 4,
+        "date": "2026-08-06",
+        "cabin": "ECONOMY"
+      }
+    ],
+    "needs_rebooking": true,
+    "booking_verified": true,
+    "identity_ambiguous": false,
+    "request_requires_unsupported_action": false
+  },
+  "decision": {
+    "actions": [
+      {
+        "type": "escalate",
+        "description": "Escalate hotel for P1: not entitled",
+        "risk_level": "LOW",
+        "reasoning": [],
+        "authoritative_sources": [],
+        "safety_checks": {}
+      },
+      {
+        "type": "rebook",
+        "description": "Rebook passenger P1 to AK212",
+        "risk_level": "MEDIUM",
+        "reasoning": [
+          "Booking verified",
+          "Original flight cancelled",
+          "Passenger requested rebook",
+          "Available flight satisfies requirements"
+        ],
+        "authoritative_sources": [
+          "booking_api",
+          "availability_api"
+        ],
+        "safety_checks": {
+          "identity_verified": true,
+          "availability_confirmed": true,
+          "special_assistance_clear": true
+        }
+      },
+      {
+        "type": "escalate",
+        "description": "Escalate unsupported action 'baggage' for P1",
+        "risk_level": "LOW",
+        "reasoning": [],
+        "authoritative_sources": [],
+        "safety_checks": {}
+      }
+    ],
+    "escalate": false,
+    "escalation_reason": null
+  },
+  "actions_taken": [
+    {
+      "action": {
+        "type": "escalate",
+        "description": "Escalate hotel for P1: not entitled",
+        "risk_level": "LOW",
+        "reasoning": [],
+        "authoritative_sources": [],
+        "safety_checks": {}
+      },
+      "success": true,
+      "message": "{'escalation_id': 'ESC-00015', 'raised_at': '2026-08-22T13:38:21Z', 'status': 'OPEN', 'queue': 'GENERAL', 'summary': 'Partial passenger-level escalation', 'requested_decision': 'Hotel requested but not entitled.', 'booking_ref': 'AER-7P4R2M'}"
+    },
+    {
+      "action": {
+        "type": "rebook",
+        "description": "Rebook passenger P1 to AK212",
+        "risk_level": "MEDIUM",
+        "reasoning": [
+          "Booking verified",
+          "Original flight cancelled",
+          "Passenger requested rebook",
+          "Available flight satisfies requirements"
+        ],
+        "authoritative_sources": [
+          "booking_api",
+          "availability_api"
+        ],
+        "safety_checks": {
+          "identity_verified": true,
+          "availability_confirmed": true,
+          "special_assistance_clear": true
+        }
+      },
+      "success": true,
+      "message": "{'rebooking_id': 'RBK-00016', 'confirmed_at': '2026-08-22T13:38:21Z', 'status': 'CONFIRMED', 'booking_ref': 'AER-7P4R2M', 'passenger_ids': ['P1'], 'option_id': 'OPT-36684BED70', 'flight_no': 'AK212', 'date': '2026-08-06', 'cabin': 'ECONOMY', 'fare_gbp': 0.0, 'notes': ''}"
+    },
+    {
+      "action": {
+        "type": "escalate",
+        "description": "Escalate unsupported action 'baggage' for P1",
+        "risk_level": "LOW",
+        "reasoning": [],
+        "authoritative_sources": [],
+        "safety_checks": {}
+      },
+      "success": true,
+      "message": "{'escalation_id': 'ESC-00017', 'raised_at': '2026-08-22T13:38:22Z', 'status': 'OPEN', 'queue': 'GENERAL', 'summary': 'Partial passenger-level escalation', 'requested_decision': 'Unsupported action requested: baggage', 'booking_ref': 'AER-7P4R2M'}"
+    }
+  ],
+  "escalation_reason": null,
+  "draft_handoff": "ESCALATION BRIEFING:\nReason: Partial escalation required for some passengers/actions\nFacts Summary: {\"intent\":{\"booking_references\":[\"AER-7P4R2M\"],\"flight_numbers\":[\"AK150\"],\"passenger_requests\":[{\"passenger_name\":\"Kenneth Braithwaite\",\"requested_actions\":[\"hotel\",\"rebook\",\"baggage\"]}],\"requested_amount\":null,\"destination\":\"Rome\",\"preferred_date\":null,\"deadline\":null,\"language\":\"en\",\"is_prompt_injection\":false},\"booking\":{\"booking_reference\":\"AER-7P4R2M\",\"passengers\":[{\"passenger_id\":\"P1\",\"first_name\":\"\",\"last_name\":\"\",\"special_assistance\":null}],\"flights\":[\"AK150\"],\"status\":{\"affected_segment\":\"S1\",\"rerouted_onto\":null,\"arrival_delay_minutes\":null,\"informed_days_before\":0}},\"flight\":null,\"entitlement\":{\"compensation_amount\":0.0,\"hotel_allowed\":false,\"rebooking_allowed\":true,\"refund_allowed\":true},\"availability\":[{\"option_id\":\"OPT-36684BED70\",\"flight_number\":\"AK212\",\"departure_time\":\"05:15\",\"available_seats\":9,\"date\":\"2026-08-06\",\"cabin\":\"ECONOMY\"},{\"option_id\":\"OPT-667456905A\",\"flight_number\":\"AK725\",\"departure_time\":\"05:20\",\"available_seats\":1,\"date\":\"2026-08-06\",\"cabin\":\"ECONOMY\"},{\"option_id\":\"OPT-79A7829779\",\"flight_number\":\"AK737\",\"departure_time\":\"05:20\",\"available_seats\":8,\"date\":\"2026-08-06\",\"cabin\":\"BUSINESS\"},{\"option_id\":\"OPT-03FB3887EE\",\"flight_number\":\"AK377\",\"departure_time\":\"05:20\",\"available_seats\":2,\"date\":\"2026-08-06\",\"cabin\":\"ECONOMY\"},{\"option_id\":\"OPT-982E2F3090\",\"flight_number\":\"AK669\",\"departure_time\":\"05:30\",\"available_seats\":6,\"date\":\"2026-08-06\",\"cabin\":\"ECONOMY\"},{\"option_id\":\"OPT-374EB11A7C\",\"flight_number\":\"AK525\",\"departure_time\":\"05:45\",\"available_seats\":4,\"date\":\"2026-08-06\",\"cabin\":\"ECONOMY\"},{\"option_id\":\"OPT-66D9CF6F43\",\"flight_number\":\"AK614\",\"departure_time\":\"06:05\",\"available_seats\":6,\"date\":\"2026-08-06\",\"cabin\":\"PREMIUM\"},{\"option_id\":\"OPT-67AC7B6450\",\"flight_number\":\"AK424\",\"departure_time\":\"06:10\",\"available_seats\":3,\"date\":\"2026-08-06\",\"cabin\":\"BUSINESS\"},{\"option_id\":\"OPT-AD75AE4D18\",\"flight_number\":\"AK938\",\"departure_time\":\"07:05\",\"available_seats\":3,\"date\":\"2026-08-06\",\"cabin\":\"ECONOMY\"},{\"option_id\":\"OPT-8D8A954C59\",\"flight_number\":\"AK361\",\"departure_time\":\"07:10\",\"available_seats\":9,\"date\":\"2026-08-06\",\"cabin\":\"ECONOMY\"},{\"option_id\":\"OPT-31C1FA129E\",\"flight_number\":\"AK536\",\"departure_time\":\"07:30\",\"available_seats\":1,\"date\":\"2026-08-06\",\"cabin\":\"ECONOMY\"},{\"option_id\":\"OPT-AD17127F45\",\"flight_number\":\"AK524\",\"departure_time\":\"07:30\",\"available_seats\":6,\"date\":\"2026-08-06\",\"cabin\":\"ECONOMY\"},{\"option_id\":\"OPT-31F43B9AE7\",\"flight_number\":\"AK591\",\"departure_time\":\"08:55\",\"available_seats\":9,\"date\":\"2026-08-06\",\"cabin\":\"BUSINESS\"},{\"option_id\":\"OPT-6A1269FC1E\",\"flight_number\":\"AK892\",\"departure_time\":\"09:30\",\"available_seats\":7,\"date\":\"2026-08-06\",\"cabin\":\"PREMIUM\"},{\"option_id\":\"OPT-F355D7ECB6\",\"flight_number\":\"AK489\",\"departure_time\":\"09:55\",\"available_seats\":7,\"date\":\"2026-08-06\",\"cabin\":\"ECONOMY\"},{\"option_id\":\"OPT-5E76743419\",\"flight_number\":\"AK290\",\"departure_time\":\"10:05\",\"available_seats\":4,\"date\":\"2026-08-06\",\"cabin\":\"ECONOMY\"}],\"needs_rebooking\":true,\"booking_verified\":true,\"identity_ambiguous\":false,\"request_requires_unsupported_action\":false}",
+  "draft_reply": "Dear Customer,\n\nBased on your message, we have processed the following for booking(s) AER-7P4R2M:\n- {'escalation_id': 'ESC-00015', 'raised_at': '2026-08-22T13:38:21Z', 'status': 'OPEN', 'queue': 'GENERAL', 'summary': 'Partial passenger-level escalation', 'requested_decision': 'Hotel requested but not entitled.', 'booking_ref': 'AER-7P4R2M'}\n- {'rebooking_id': 'RBK-00016', 'confirmed_at': '2026-08-22T13:38:21Z', 'status': 'CONFIRMED', 'booking_ref': 'AER-7P4R2M', 'passenger_ids': ['P1'], 'option_id': 'OPT-36684BED70', 'flight_no': 'AK212', 'date': '2026-08-06', 'cabin': 'ECONOMY', 'fare_gbp': 0.0, 'notes': ''}\n- {'escalation_id': 'ESC-00017', 'raised_at': '2026-08-22T13:38:22Z', 'status': 'OPEN', 'queue': 'GENERAL', 'summary': 'Partial passenger-level escalation', 'requested_decision': 'Unsupported action requested: baggage', 'booking_ref': 'AER-7P4R2M'}\n\nThank you for flying with Aerlink."
+}
